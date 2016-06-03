@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fotocekicon.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\fotocekicon.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\imag1.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\imag1.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\imag2.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\imag2.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\camera.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\takemyphoto.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\takemyphoto.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\imag3.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\imag3.png"
+    }
+]
