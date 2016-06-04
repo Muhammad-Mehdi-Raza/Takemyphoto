@@ -8,9 +8,11 @@ import java.io.IOException;
 import java.util.Calendar;
 
 
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
+import android.graphics.drawable.Drawable;
 import android.hardware.Camera;
 import android.hardware.Camera.CameraInfo;
 import android.hardware.Camera.ErrorCallback;
@@ -40,19 +42,19 @@ public class MainActivity extends Activity {
 	ImageView fotoButton;
 	LinearLayout progressLayout;
 	String path = "/sdcard/KutCamera/cache/images/";
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-		context=this;
-		
+
+		context = this;
+
 		fotoButton = (ImageView) findViewById(R.id.imageView_foto);
 		exitButton = (Button) findViewById(R.id.button_exit);
 		image = (ImageView) findViewById(R.id.imageView_photo);
 		progressLayout = (LinearLayout) findViewById(R.id.progress_layout);
-		
+
 		preview = new Preview(this,
 				(SurfaceView) findViewById(R.id.KutCameraFragment));
 		FrameLayout frame = (FrameLayout) findViewById(R.id.preview);
@@ -75,6 +77,45 @@ public class MainActivity extends Activity {
 		});
 	}
 
+	int imid = 0;
+	float opid=0f;
+
+	public void changeOpacity(View view) {
+		ImageView im= (ImageView)findViewById(R.id.image_foto);
+
+
+		if(opid < 1.0) {
+			opid+=0.4f;
+		}
+		else
+		{
+			opid=0f;
+		}
+		im.setAlpha(opid);
+	}
+
+
+
+	public void changePic(View view)
+	{
+		ImageView im= (ImageView)findViewById(R.id.image_foto);
+		String uri="@drawable/imag0";
+		if(imid<3) {
+			imid++;
+			uri = "@drawable/imag"+imid;  // where myresource (without the extension) is the file
+		}
+		else
+		{
+			imid=0;
+		}
+
+		int imageResource = getResources().getIdentifier(uri, null, getPackageName());
+
+
+		Drawable res = getResources().getDrawable(imageResource);
+		im.setImageDrawable(res);
+
+	}
 	@Override
 	protected void onResume() {
 		super.onResume();
