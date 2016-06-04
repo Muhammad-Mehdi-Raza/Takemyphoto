@@ -55,8 +55,7 @@ public class MainActivity extends Activity {
 		image = (ImageView) findViewById(R.id.imageView_photo);
 		progressLayout = (LinearLayout) findViewById(R.id.progress_layout);
 
-		preview = new Preview(this,
-				(SurfaceView) findViewById(R.id.KutCameraFragment));
+		preview = new Preview(this,(SurfaceView) findViewById(R.id.KutCameraFragment));
 		FrameLayout frame = (FrameLayout) findViewById(R.id.preview);
 		frame.addView(preview);
 		preview.setKeepScreenOn(true);
@@ -94,12 +93,13 @@ public class MainActivity extends Activity {
 		im.setAlpha(opid);
 	}
 
-
-
 	public void changePic(View view)
 	{
 		ImageView im= (ImageView)findViewById(R.id.image_foto);
 		String uri="@drawable/imag0";
+		opid = 1.0f;
+		im.setAlpha(opid);
+
 		if(imid<3) {
 			imid++;
 			uri = "@drawable/imag"+imid;  // where myresource (without the extension) is the file

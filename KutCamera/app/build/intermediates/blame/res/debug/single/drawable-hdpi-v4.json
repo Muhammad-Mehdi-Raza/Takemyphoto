@@ -16,8 +16,16 @@
         "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\imag2.png"
     },
     {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_perm_media_black_48dp.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\ic_perm_media_black_48dp.png"
+    },
+    {
         "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\camera.png",
         "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\camera.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_camera_black_36dp.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\ic_camera_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\takemyphoto.png",
@@ -26,6 +34,18 @@
     {
         "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\imag0.png",
         "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\imag0.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_fiber_new_black_48dp.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\ic_fiber_new_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_camera_black_48dp.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\ic_camera_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_opacity_black_48dp.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-hdpi\\ic_opacity_black_48dp.png"
     },
     {
         "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\imag3.png",
