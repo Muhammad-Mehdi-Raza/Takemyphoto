@@ -11,6 +11,7 @@ import java.util.Calendar;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.graphics.Matrix;
 import android.graphics.drawable.Drawable;
 import android.hardware.Camera;
@@ -31,6 +32,7 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -116,6 +118,57 @@ public class MainActivity extends Activity {
 		im.setImageDrawable(res);
 
 	}
+
+static int val = 0;
+	public void changeColorFilter(View view)
+	{
+		ImageView im= (ImageView)findViewById(R.id.image_foto);
+		String [] arr = new String[3];
+		arr[0] = "#000000";
+		arr[1] = "#FFFFFF";
+		arr[2] = "#AE6118";
+		int color = 0;
+
+		for (int i = 0; i < 3; i++)
+		{
+			if (val == 0) {
+				val++;
+				color = Color.parseColor(arr[val]);
+				break;
+			}
+			if(val == 1)
+			{
+				val++;
+				color = Color.parseColor(arr[val]);
+				break;
+			}
+			if (val == 2)
+			{
+				val = 0;
+				color = Color.parseColor(arr[val]);
+				break;
+			}
+		}
+
+
+		//Toast.makeText(this, im.getColorFilter().toString(), Toast.LENGTH_LONG).show();
+
+/*		if (im.getColorFilter().toString().equals("#000000") || im.getColorFilter().toString().equals("FFFFFF"))
+		{
+			color = Color.parseColor("#AE6118");
+		}
+		if (im.getColorFilter().toString().equals("#000000") || im.getColorFilter().toString().equals("AE6118"))
+		{
+			color = Color.parseColor("#FFFFFF");
+		}
+		if (im.getColorFilter().toString().equals("#FFFFFF") || im.getColorFilter().toString().equals("AE6118"))
+		{
+			color = Color.parseColor("#000000");
+		}
+*/
+		im.setColorFilter(color);
+	}
+
 	@Override
 	protected void onResume() {
 		super.onResume();

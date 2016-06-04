@@ -8,6 +8,10 @@
         "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-xhdpi\\ic_perm_media_black_48dp.png"
     },
     {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_swap_horiz_black_48dp.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-xhdpi\\ic_swap_horiz_black_48dp.png"
+    },
+    {
         "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_camera_black_48dp.png",
         "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-xhdpi\\ic_camera_black_48dp.png"
     },

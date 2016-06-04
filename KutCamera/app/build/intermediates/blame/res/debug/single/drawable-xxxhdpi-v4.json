@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_swap_horiz_black_48dp.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_swap_horiz_black_48dp.png"
+    },
+    {
         "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_fiber_new_black_48dp.png",
         "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_fiber_new_black_48dp.png"
     },

@@ -104,7 +104,20 @@
                 android:id="@+id/image_foto"/>
 
         </RelativeLayout>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/linear">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poses"
+        android:onClick="changeColorFilter"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_swap_horiz_black_48dp"
+        />
+</RelativeLayout>
         <RelativeLayout
             android:id="@+id/RelativeLayout1"
             android:layout_width="match_parent"
@@ -133,16 +146,19 @@
                 android:padding="5dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/ic_perm_media_black_48dp" />
+
             <ImageView
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Poses"
                 android:onClick="changePic"
                 android:layout_alignParentRight="true"
+
                 android:src="@drawable/ic_fiber_new_black_48dp"
                 android:id="@+id/changepic"/>
             <ImageView
-                android:layout_width="100dp"
+                android:id="@+id/ch"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:text="Opacity"
