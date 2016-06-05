@@ -28,7 +28,8 @@ public final class R {
         public static final int imag1=0x7f02000a;
         public static final int imag2=0x7f02000b;
         public static final int imag3=0x7f02000c;
-        public static final int takemyphoto=0x7f02000d;
+        public static final int imag4=0x7f02000d;
+        public static final int takemyphoto=0x7f02000e;
     }
     public static final class id {
         public static final int KutCameraFragment=0x7f080001;

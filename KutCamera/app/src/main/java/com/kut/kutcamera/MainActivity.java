@@ -104,7 +104,7 @@ public class MainActivity extends Activity {
 		opid = 1.0f;
 		im.setAlpha(opid);
 
-		if(imid<3) {
+		if(imid<4) {
 			imid++;
 			uri = "@drawable/imag"+imid;  // where myresource (without the extension) is the file
 		}
@@ -152,22 +152,6 @@ static int val = 0;
 			}
 		}
 
-
-		//Toast.makeText(this, im.getColorFilter().toString(), Toast.LENGTH_LONG).show();
-
-/*		if (im.getColorFilter().toString().equals("#000000") || im.getColorFilter().toString().equals("FFFFFF"))
-		{
-			color = Color.parseColor("#AE6118");
-		}
-		if (im.getColorFilter().toString().equals("#000000") || im.getColorFilter().toString().equals("AE6118"))
-		{
-			color = Color.parseColor("#FFFFFF");
-		}
-		if (im.getColorFilter().toString().equals("#FFFFFF") || im.getColorFilter().toString().equals("AE6118"))
-		{
-			color = Color.parseColor("#000000");
-		}
-*/
 		im.setColorFilter(color);
 	}
 
