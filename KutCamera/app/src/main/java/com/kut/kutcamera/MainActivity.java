@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.util.Calendar;
 
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -20,6 +21,7 @@ import android.hardware.Camera.ErrorCallback;
 import android.hardware.Camera.PictureCallback;
 import android.hardware.Camera.ShutterCallback;
 import android.media.ExifInterface;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.app.Activity;
@@ -289,6 +291,7 @@ static int val = 0;
 			
 			
 			Bitmap realImage;
+			String lastImagePath = null;
 			 final BitmapFactory.Options options = new BitmapFactory.Options();
 			  options.inSampleSize = 5;
 			   
@@ -300,8 +303,9 @@ static int val = 0;
 			realImage = BitmapFactory.decodeByteArray(data,0,data.length,options);
 			ExifInterface exif = null;
 			try {
-				exif = new ExifInterface(path + c.getTime().getSeconds()
-						+ ".jpg");
+				lastImagePath  = path + c.getTime().getSeconds()
+						+ ".jpg";
+				exif = new ExifInterface(lastImagePath);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -326,10 +330,23 @@ static int val = 0;
 			} catch (Exception e) {
 
 			}
+
+			final String imgPath = lastImagePath;
+			image.setImageBitmap(realImage);
+			image.setOnClickListener(new OnClickListener() {
+			 @Override
+			 public void onClick(View view) {
+				 if (imgPath != null) {
+					 Intent intent = new Intent();
+					 intent.setAction(Intent.ACTION_VIEW);
+					 Uri imgUri = Uri.parse("file://" + imgPath);
+					 intent.setDataAndType(imgUri, "image/*");
+					 startActivity(intent);
+				 }
+			 }
+		 });
 		
 			image.setImageBitmap(realImage);
-
-			
 
 			fotoButton.setClickable(true);
 			camera.startPreview();

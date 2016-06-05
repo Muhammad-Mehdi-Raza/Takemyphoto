@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
         "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\menu\\main.xml"
     }

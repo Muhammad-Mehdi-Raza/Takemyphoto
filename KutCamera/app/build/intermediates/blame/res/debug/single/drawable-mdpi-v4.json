@@ -1,7 +1,27 @@
 [
     {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_camera_black_48dp.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\src\\main\\res\\drawable-mdpi\\ic_camera_black_48dp.png"
+    },
+    {
         "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_camera_black_36dp.png",
         "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-mdpi\\ic_camera_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_fiber_new_black_48dp.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\src\\main\\res\\drawable-mdpi\\ic_fiber_new_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_swap_horiz_black_48dp.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\src\\main\\res\\drawable-mdpi\\ic_swap_horiz_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_camera_black_36dp.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\src\\main\\res\\drawable-mdpi\\ic_camera_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_fiber_new_black_48dp.png",
@@ -14,6 +34,14 @@
     {
         "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_opacity_black_48dp.png",
         "source": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\src\\main\\res\\drawable-mdpi\\ic_opacity_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_perm_media_black_48dp.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\src\\main\\res\\drawable-mdpi\\ic_perm_media_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_opacity_black_48dp.png",
+        "source": "C:\\Users\\AleeKhan\\Desktop\\KutCamera\\app\\src\\main\\res\\drawable-mdpi\\ic_opacity_black_48dp.png"
     },
     {
         "merged": "C:\\Users\\AleeKhan\\Desktop\\MyApplication_2\\MyApplication\\KutCamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_perm_media_black_48dp.png",
